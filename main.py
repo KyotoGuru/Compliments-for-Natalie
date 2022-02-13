@@ -1,7 +1,7 @@
 import telebot
 from random import randint
 
-TOKEN = "5069299807:AAEuDYmkrBV1za4QsfoQUQn96_Q_XQ9s7cw"
+TOKEN = "<TOKEN>"
 client = telebot.TeleBot(TOKEN)
 
 with open("comp.txt", 'r', encoding="UTF-8") as file:
